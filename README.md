@@ -100,5 +100,3 @@ Feel free to fork the repository, open issues, and submit pull requests. Contrib
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-Let me know if you'd like to make any changes or add more details!
