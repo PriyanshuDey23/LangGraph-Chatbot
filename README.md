@@ -1,6 +1,8 @@
 
 # LangGraph AI Agent
 
+![](output.png)
+
 A powerful web interface for interacting with AI agents powered by different language models. The app lets you define and configure an AI agent, query it, and get responses. You can also enable external web search functionality for richer answers.
 
 ## Features
@@ -48,7 +50,7 @@ A powerful web interface for interacting with AI agents powered by different lan
 1. Start the backend server by running `backend.py`:
 
    ```bash
-   uvicorn backend:app --reload
+   python workflow/backend.py
    ```
 
 2. In a new terminal window, start the Streamlit frontend by running `app.py`:

@@ -28,7 +28,7 @@ st.write("Create and Interact with the AI Agents!")
 
 # Model Provider
 MODEL_NAMES_GROQ = ["llama3-70b-8192", "mixtral-8x7b-32768", "llama-3.3-70b-versatile"]
-MODEL_NAMES_GOOGLE = ["gemini-2.0-flash-exp"]
+MODEL_NAMES_GOOGLE = ["gemini-2.0-flash"]
 
 
 
@@ -46,7 +46,7 @@ with st.sidebar:
     if provider == "Groq":
         selected_model = st.selectbox("🤖 Select Groq Model:", ["llama3-70b-8192", "mixtral-8x7b-32768", "llama-3.3-70b-versatile"])
     else:
-        selected_model = st.selectbox("🤖 Select Google Model:", ["gemini-2.0-flash-exp"])
+        selected_model = st.selectbox("🤖 Select Google Model:", ["gemini-2.0-flash"])
 
     # Web search option
     allow_web_search = st.checkbox("🔍 Allow Web Search") # Boolean

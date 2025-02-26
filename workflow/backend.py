@@ -1,7 +1,7 @@
 # Setup pydantic tool (Scheme validation)
 from pydantic import BaseModel # How communication between frontend and backend is done(standardized)
 from typing import List
-from workflow.ai_agent import get_response_from_ai_agent
+from ai_agent import get_response_from_ai_agent
 
 # If from fromtend this format of data should  come to prcess in the backend
 # We will receive in this format from frontend
